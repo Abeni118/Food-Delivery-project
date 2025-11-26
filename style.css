@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&display=swap');
+
+:root {
+  /* ---------- PRIMARY BRAND COLORS ---------- */
+  --primary: #ff4d4f;         /* Fresh red (food vibe) */
+  --primary-dark: #d9363e;
+  --primary-light: #ff7875;
+
+  /* ---------- SECONDARY COLORS ---------- */
+  --secondary: #00b894;       /* Green (freshness, delivery) */
+  --secondary-dark: #009878;
+  --secondary-light: #55efc4;
+
+  /* ---------- ACCENT COLORS ---------- */
+  --accent-orange: #ffa502;
+  --accent-yellow: #f1c40f;
+  --accent-blue: #1e90ff;
+  --accent-purple: #9b59b6;
+
+  /* ---------- TEXT COLORS ---------- */
+  --text-main: #333333;
+  --text-light: #555555;
+  --text-muted: #878787;
+  --text-inverse: #ffffff;
+
+  /* ---------- SURFACE COLORS ---------- */
+  --background: #ffffff;
+  --background-light: #fafafa;
+  --card-bg: #ffffff;
+  --card-shadow: rgba(0,0,0,0.05);
+  --border-color: #eaeaea;
+
+  /* ---------- STATUS ALERT COLORS ---------- */
+  --success: #2ecc71;
+  --warning: #f1c40f;
+  --danger: #e74c3c;
+  --info: #3498db;
+
+  /* ---------- GRADIENTS ---------- */
+  --gradient-primary: linear-gradient(135deg, #ff4d4f, #ff7875);
+  --gradient-secondary: linear-gradient(135deg, #00b894, #55efc4);
+  --gradient-warm: linear-gradient(135deg, #ffa502, #ff4d4f);
+
+  /* ---------- OPTIONAL DARK MODE ---------- */
+  --dark-bg: #1e1e1e;
+  --dark-card: #2a2a2a;
+  --dark-text: #e0e0e0;
+  --dark-border: #3a3a3a;
+
+  /* ---------- OPTIONAL SIZES ---------- */
+  --radius: 12px;
+  --radius-sm: 6px;
+  --radius-lg: 20px;
+
+  --spacing: 1rem;
+  --spacing-sm: 0.5rem;
+  --spacing-lg: 1.5rem;
+
+  /* ---------- OPTIONAL FONTS ---------- */
+  --font-main: "Poppins", sans-serif;
+  --font-heading: "Inter", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;;
+}
